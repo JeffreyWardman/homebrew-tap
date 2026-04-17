@@ -16,6 +16,7 @@ cask "claude-manager" do
   homepage "https://github.com/JeffreyWardman/claude-manager"
 
   app "claude-manager.app"
+  binary "#{appdir}/claude-manager.app/Contents/MacOS/claude-manager", target: "cmanager"
 
   zap trash: [
     "~/.config/claude-manager",
