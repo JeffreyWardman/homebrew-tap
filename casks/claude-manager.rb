@@ -2,12 +2,11 @@ cask "claude-manager" do
   version "0.1.0"
 
   on_arm do
-    sha256 "b763b1e90d47209a6746ef9f481dcb9049db809dbbe84db902227d354437e973"
     url "https://github.com/JeffreyWardman/claude-manager/releases/download/v#{version}/claude-manager_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "d156e7fc1054bdd13f02270a1ab6355d2fe03d3f4641174877a9be82154d99c7"
+    sha256 "d47c7c5201a7f1556a0893486f948ea439cc0de120a8383f0aabf2aed7723b5c"
     url "https://github.com/JeffreyWardman/claude-manager/releases/download/v#{version}/claude-manager_#{version}_x64.dmg"
   end
 
