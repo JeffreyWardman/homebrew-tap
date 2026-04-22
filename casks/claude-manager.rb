@@ -6,7 +6,6 @@ cask "claude-manager" do
   end
 
   on_intel do
-    sha256 "d47c7c5201a7f1556a0893486f948ea439cc0de120a8383f0aabf2aed7723b5c"
     url "https://github.com/JeffreyWardman/claude-manager/releases/download/v#{version}/claude-manager_#{version}_x64.dmg"
   end
 
