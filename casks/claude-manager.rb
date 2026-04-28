@@ -1,5 +1,5 @@
 cask "claude-manager" do
-  version "0.1.0"
+  version "0.1.1"
 
   on_arm do
     url "https://github.com/JeffreyWardman/claude-manager/releases/download/v#{version}/claude-manager_#{version}_aarch64.dmg"
